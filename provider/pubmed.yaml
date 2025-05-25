@@ -11,8 +11,8 @@ identity:
   icon: icon.svg
 tools:
   - tools/search.yaml
-  - tools/fetch_details.yaml 
-  - tools/advanced_search.yaml 
+  - tools/fetch_details.yaml
+  - tools/advanced_search.yaml
 extra:
   python:
     source: provider/pubmed.py # Points to the provider implementation
@@ -39,5 +39,5 @@ credentials_for_provider:
     placeholder:
       en_US: Enter your NCBI API key (required)
       zh_Hans: 请输入 NCBI API 密钥（必填）
-    required: true
+    required: false
     type: secret-input
